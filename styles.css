@@ -32,11 +32,12 @@ h1 {
 p span {
     margin: 0 1rem 0 2rem;
     padding: 0 0 0 1rem;
+    color:greenyellow;
 
 
 
 }
-.btns {
+/* .btns {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -46,9 +47,38 @@ p span {
     margin-top: 0;
 
 
+} */
+/* Center the container and buttons */
+.btns {
+    display: flex;
+    flex-direction: column; /* Arrange buttons in a column */
+    align-items: center;    /* Horizontally center the buttons */
+    justify-content: center; /* Vertically center the buttons if needed */
+    padding: 0 2rem 2rem;
+    margin-top: 0;
+    gap: 0      /* Full height for vertical centering */
 }
-.btns .prof{
+
+.prof {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px 0;         /* Spacing between buttons */
+    text-decoration: none;
+    border-radius: 5px;
+    text-align: center;
+    width: 270px;
+    height: 25px;
+    background-color: grey;
+    color: white;
+}
+
+.prof:hover {
+    background-color:darkgrey;
+}
+
+
+/* .btns .prof{
     width: 270px;
     height: 40px;
     gap: 2rem;
-}
+} */
