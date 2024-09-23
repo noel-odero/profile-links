@@ -21,6 +21,7 @@ body{
     padding: 20px;
     width: 300px;
     text-align: center;
+
 } */
 .logo{
     display: flex;
@@ -92,6 +93,7 @@ p span {
 
 .prof:hover {
     background-color:  hsl(75, 94%, 57%);
+    color: black;
 }
 
 
